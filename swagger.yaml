@@ -1,0 +1,306 @@
+swagger: "2.0"
+info:
+  description: "This is a sample server Petstore server.  You can find out more about     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).      For this sample, you can use the api key `special-key` to test the authorization     filters."
+  version: "1.0.0"
+  title: "Swagger Petstore"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "apiteam@swagger.io"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "petstore.swagger.io"
+basePath: "/https://monmenu.2v360.com/"
+tags:
+- name: "pet"
+  description: "Everything about your Pets"
+  externalDocs:
+    description: "Find out more"
+    url: "http://swagger.io"
+- name: "store"
+  description: "Access to Petstore orders"
+- name: "user"
+  description: "Operations about user"
+  externalDocs:
+    description: "Find out more about our store"
+    url: "http://swagger.io"
+schemes:
+- "https"
+- "http"
+paths:
+      
+  /users:
+    get:
+      tags:
+      - "users"
+      
+      description: "Affiche les users"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+  
+
+  
+  /restaurants:
+    get:
+      tags:
+      - "restaurants"
+      
+      description: "Affiche les restaurants"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+          
+          
+  /restaurants_simple:
+    get:
+      tags:
+      - "restaurants_simple"
+      
+      description: "Affiche les restaurants_simple"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"  
+  
+  /evenement:
+    get:
+      tags:
+      - "evenement"
+      
+      description: "Affiche les evenement"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+          
+  /favoris:
+    get:
+      tags:
+      - "favoris"
+      
+      description: "Affiche les favoris"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"        
+  /horaires:
+    get:
+      tags:
+      - "horaires"
+      
+      description: "Affiche les horaires"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+          
+  /plats:
+    get:
+      tags:
+      - "plats"
+      
+      description: "Affiche les plats"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"   
+          
+  /positions:
+    get:
+      tags:
+      - "positions"
+      
+      description: "Affiche les positions"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"  
+          
+  /quartiers:
+    get:
+      tags:
+      - "quartiers"
+      
+      description: "Affiche les quartiers"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+          
+  /commandes:
+    get:
+      tags:
+      - "commandes"
+      
+      description: "Affiche les commandes"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+          
+  /categories:
+    get:
+      tags:
+      - "categories"
+      
+      description: "Affiche les categories"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"  
+          
+  /categories_simples:
+    get:
+      tags:
+      - "ategories_simples"
+      
+      description: "Affiche les ategories_simple:"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+          
+  /publicites :
+    get:
+      tags:
+      - "quartiers"
+      
+      description: "Affiche les quartiers"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+                   
+  /cuisines :
+    get:
+      tags:
+      - "quartiers"
+      
+      description: "Affiche les quartiers"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+  /jours:
+    get:
+      tags:
+      - "quartiers"
+      
+      description: "Affiche les quartiers"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+                                              
+  /clients :
+    get:
+      tags:
+      - "quartiers"
+      
+      description: "Affiche les quartiers"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+  /commande_plat :
+    get:
+      tags:
+      - "quartiers"
+      
+      description: "Affiche les quartiers"
+      
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "Invalid status value"
+                                                                                                                                            
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"
